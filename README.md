@@ -115,7 +115,7 @@ https://www.arduino.cc/reference/en/libraries/servo/
 
 More info coming soon.
 
-## 11. Add Stepper
+## 12. Add Stepper
 
 More info coming soon.
 
