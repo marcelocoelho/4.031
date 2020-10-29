@@ -42,13 +42,19 @@ delay(100); // wait for a second
 
 ## 3. Start Building your 'Roadkill'
 
-A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring the form-factor and look of an object.
+A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring out ethe form-factor and look of an object.
 
 At this early prototyping phase, I use a small piece of wood or cardboard and protoboards to create a 'roadkill'. Once I know that everything works as intended I start migrating my circuit design to its final custom PCB form-factor.
 
 ![roadkill](https://github.com/marcelocoelho/4.031/blob/main/images/roadkill.jpg)
 
-## 4.
+## 4. Add a Breadboard
+
+Add a breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails.
+
+If you haven't used a breadboard before, there is a great tutorial from Sparkfun here: https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
+
+![roadkill](https://github.com/marcelocoelho/4.031/blob/main/images/breadboard.jpg)
 
 - Sketches for every hardware component
 - To build a work-like prototype, mount it to wood or cardboard
