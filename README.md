@@ -24,7 +24,10 @@ Now let's make sure you can program your board.
 
 Firs you need tell the Arduino IDE what port your board is connected to and make sure you've selected the right board. On my computer it looks like this:
 
-Go under File > Examples > 01.Basics > Blink. This will open a sketch that makes the LED blink.
+![port](https://github.com/marcelocoelho/4.031/blob/main/images/board.png)
+![board](https://github.com/marcelocoelho/4.031/blob/main/images/port.png)
+
+Go to File > Examples > 01.Basics > Blink. This will open a sketch that makes the LED blink.
 
 Click the Upload arrow
 
