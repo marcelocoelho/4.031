@@ -56,21 +56,35 @@ If you haven't used a breadboard before, there is a great tutorial from Sparkfun
 
 ![roadkill](https://github.com/marcelocoelho/4.031/blob/main/images/breadboard.jpg)
 
-- Sketches for every hardware component
-- To build a work-like prototype, mount it to wood or cardboard
+## 5. Add an External LED
 
-1. Get files from Github
-2. Install Arduino
-3. Run Blink Sketch
-4. Run External LED
-5. Add button
-6. Check Serial Comm
-7. Add Knob
-8. Add LED strip
-9. Add Stepper
-10. Add Servo
+Add an LED to breadboard with a 330 Ohm resistor and connect it to Pin X on the Arduino.
 
-11. Timer example
-12. Create your own timer
+Now go back to the Blink sketch you used earlier and change LED_BUILTIN to 2. This change the Arduino pin you are controlling from pin 13 to pin 2, which is where your external LED is connected.
 
-13. Simple Arduino State Machine
+![led](https://github.com/marcelocoelho/4.031/blob/main/images/led.jpg)
+
+For more information, check out: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
+
+## 6. Add a Button
+
+## 7. Debug Using the Serial Port
+
+## 8. Add a Knob
+
+## 10. Add Servo
+
+## 11. Add a Buzzer
+
+## 11. Add Stepper
+
+## 12. Add LED Strip
+
+## 13. Create Your Own Timer
+
+Now that you have all of these components working, try to build an interactive clock or timer.
+
+- How does someone set the time?
+- Does it count up or down?
+- How does someone know when the time has elapsed?
+- What is the best form of input and output for your type of clock and how it is used?
