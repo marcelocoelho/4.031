@@ -82,19 +82,40 @@ https://www.arduino.cc/en/Tutorial/BuiltInExamples/ASCIITable
 
 ## 8. Add a Rotary Encoder
 
-This example requires a library that you will need to install by going to Tools > Manage Libraries and search for rotaryencoder.
+Use the example included wih the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for rotaryencoder.
 
 ![rotaryencoder](https://github.com/marcelocoelho/4.031/blob/main/A_RotaryEncoderModule/rotaryencoderlibrary.png)
 
+CLK and DT are the pins on the rotary encoder that you need to connect to Arduino to detect rotation.
+SW works like a regular button if you press down the rotary encoder. Code is not included in the example for the switch but it's similar to the button sketch above.
+
+This video has a good explanation of how the encoder works if you are curious:
+https://www.youtube.com/watch?v=v4BbSzJ-hz4&ab_channel=HowToMechatronics
+
+## 9. Add LED Strip
+
+Use the example included wih the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for FastLED.
+
+You will need to solder wires to the end of your LED strip to be able to power and control it. Make sure to solder your wires to CI and DI end of the strip (I means input), and not to CO and DO (O means output).
+
+GND and 5V connect to ground and power.
+CI and DI mean clock in and data in and can connect to any digital pin.
+In the repo example, we use pins 4 and 5. If you mix them up your LED strip will not work. Double check them if you are having problems.
+
+You also need to be careful to not connect too many LEDs to your Arduino. Keep it to 5 LEDs for this prototype.
+
 ## 10. Add Servo
 
+More info coming soon.
 https://www.arduino.cc/reference/en/libraries/servo/
 
 ## 11. Add a Buzzer
 
+More info coming soon.
+
 ## 11. Add Stepper
 
-## 12. Add LED Strip
+More info coming soon.
 
 ## 13. Create Your Own Timer
 

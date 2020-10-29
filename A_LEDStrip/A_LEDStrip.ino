@@ -9,7 +9,7 @@
 #include "FastLED.h"
 
 // How many leds in your strip?
-#define NUM_LEDS 20
+#define NUM_LEDS 5
 
 // Define what pins you are using for data and clock line
 #define DATA_PIN 5
@@ -30,9 +30,9 @@ void loop() {
   
 
     for (int i = 0; i < NUM_LEDS; i++) {
-      leds[i] = CRGB::Red;  // Load array with LED values
+      leds[i] = CRGB::Green;  // Load array with LED values
       FastLED.show();         // Display what is in array
-      delay(20);             // Do nothing for certain amount of time
+      delay(200);             // Do nothing for certain amount of time
       
       //leds[i] = CRGB::Black;  // Load array with new LED value
       //FastLED.show();         // Turn off
@@ -41,7 +41,7 @@ void loop() {
     for (int i = 0; i < NUM_LEDS; i++) {
       leds[i] = CRGB::Black;  // Load array with LED values
       FastLED.show();         // Display what is in array
-      delay(20);             // Do nothing for certain amount of time
+      delay(200);             // Do nothing for certain amount of time
 
     }
 
