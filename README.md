@@ -8,15 +8,15 @@ Step-by-step electronics for interactive clock project.
 
 Each of the code examples in this repository will help you get a different electronic compoent to work. If you follow them from beginning to end you will end up with a work-like prototype and a great platform to create your own interactive clock.
 
-**0. Download Repo**
+## 0. Download Repo\*\*
 
 Start by downloading this repository and save it to a local drive. If you know how to use Git you can clone it, if not, you can just download the files. Git is a great tool for writing software, keeping tracking of different versions and collaborating with others. If you haven't used it before, the desktop app is a great way to get started: https://desktop.github.com/
 
-**1. Download Arduino IDE**
+## 1. Download Arduino IDE\*\*
 
 Arduino is the microcontroller platform you will use to create your clock. You can download the Arduino IDE here: https://www.arduino.cc/en/Main/Software which is where you will write your software, compile it, and flash it into the Arduino. If you've never used an Arduino before, this page has all the info you need to get started: https://www.arduino.cc/en/Tutorial/HomePage
 
-**2. Program Arduino + Build your 'Roadkill'**
+## 2. Program Arduino + Build your 'Roadkill'\*\*
 
 We are using Arduino Uno. Plug your Arduino into your computer and you should see a small blinking LED. If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
 
