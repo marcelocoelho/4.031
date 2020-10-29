@@ -68,9 +68,19 @@ For more information, check out: https://www.arduino.cc/en/Tutorial/BuiltInExamp
 
 ## 6. Add a Button
 
+Follow this example to add a button and control the external LED. Make sure that you change pin numbers to reflect the pins you are connecting things to:
+
+https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+
+![button](https://github.com/marcelocoelho/4.031/blob/main/images/button.jpg)
+
 ## 7. Debug Using the Serial Port
 
-## 8. Add a Knob
+One of the most difficult things about electronics, specially when you are starting, is to debug your circuits when things are not working. Being able to output variable values and states to the serial port is an easy way to get a better insight of what is going on. Look at this example to learn how to output different data types to serial monitor.
+
+https://www.arduino.cc/en/Tutorial/BuiltInExamples/ASCIITable
+
+## 8. Add a Rotary Encoder
 
 ## 10. Add Servo
 
