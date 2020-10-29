@@ -104,6 +104,8 @@ In the repo example, we use pins 4 and 5. If you mix them up your LED strip will
 
 You also need to be careful to not connect too many LEDs to your Arduino. Keep it to 5 LEDs for this prototype.
 
+![ledstrip](https://github.com/marcelocoelho/4.031/blob/main/A_RotaryEncoderModule/ledstrip.jpg)
+
 ## 10. Add Servo
 
 More info coming soon.
