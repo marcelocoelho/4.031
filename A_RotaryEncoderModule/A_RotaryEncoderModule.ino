@@ -17,14 +17,14 @@
 
 #include <RotaryEncoder.h>
 
-// Setup a RoraryEncoder for pins A2 and A3:
+// Setup a RotaryEncoder on pins A0 and A1:
 RotaryEncoder encoder(A0, A1);
 
 void setup()
 {
   Serial.begin(57600);
   Serial.println("SimplePollRotator example for the RotaryEncoder library.");
-} // setup()
+} 
 
 
 // Read the current position of the encoder and print out when changed.
@@ -38,7 +38,5 @@ void loop()
     Serial.print(newPos);
     Serial.println();
     pos = newPos;
-  } // if
-} // loop ()
-
-// The End
+  } 
+} 

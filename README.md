@@ -82,7 +82,13 @@ https://www.arduino.cc/en/Tutorial/BuiltInExamples/ASCIITable
 
 ## 8. Add a Rotary Encoder
 
+This example requires a library that you will need to install by going to Tools > Manage Libraries and search for rotaryencoder.
+
+![rotaryencoder](https://github.com/marcelocoelho/4.031/blob/main/A_RotaryEncoderModule/rotaryencoderlibrary.png)
+
 ## 10. Add Servo
+
+https://www.arduino.cc/reference/en/libraries/servo/
 
 ## 11. Add a Buzzer
 
