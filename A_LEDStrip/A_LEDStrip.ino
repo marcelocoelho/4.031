@@ -30,7 +30,7 @@ void loop() {
   
 
     for (int i = 0; i < NUM_LEDS; i++) {
-      leds[i] = CRGB::Green;  // Load array with LED values
+      leds[i] = CRGB::Purple;  // Load array with LED values
       FastLED.show();         // Display what is in array
       delay(200);             // Do nothing for certain amount of time
       
