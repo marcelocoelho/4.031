@@ -110,7 +110,7 @@ You also need to be careful to not connect too many LEDs to your Arduino. Keep i
 
 Use the example included in the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for AccelStepper.
 
-For the stepper to work, you will need to connect it to the driver board and connect the driver board to the Arduino. Pins IN1-IN4 on driver board correspond to pins 8-10 on the Arduino. Also, you will need to connect the + and - on the driver board to 5V and GND on the Arduino
+For the stepper to work, you will need to connect it to the driver board and connect the driver board to the Arduino. Pins IN1-IN4 on driver board correspond to pins 8-11 on the Arduino. Also, you will need to connect the + and - on the driver board to 5V and GND on the Arduino
 
 ## 11. Add Servo
 
