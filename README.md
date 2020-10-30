@@ -94,7 +94,7 @@ https://www.youtube.com/watch?v=v4BbSzJ-hz4&ab_channel=HowToMechatronics
 
 ## 9. Add LED Strip
 
-Use the example included wih the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for FastLED.
+Use the example included in the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for FastLED.
 
 You will need to solder wires to the end of your LED strip to be able to power and control it. Make sure to solder your wires to CI and DI end of the strip (I means input), and not to CO and DO (O means output).
 
@@ -106,16 +106,18 @@ You also need to be careful to not connect too many LEDs to your Arduino. Keep i
 
 ![ledstrip](https://github.com/marcelocoelho/4.031/blob/main/images/ledstrip.jpg)
 
-## 10. Add Servo
+## 10. Stepper Motor
+
+Use the example included in the Github repo. This example also requires a library that you will need to install by going to Tools > Manage Libraries and search for AccelStepper.
+
+For the stepper to work, you will need to connect it to the driver board and connect the driver board to the Arduino. Pins IN1-IN4 on driver board correspond to pins 8-10 on the Arduino. Also, you will need to connect the + and - on the driver board to 5V and GND on the Arduino
+
+## 11. Add Servo
 
 More info coming soon.
 https://www.arduino.cc/reference/en/libraries/servo/
 
-## 11. Add a Buzzer
-
-More info coming soon.
-
-## 12. Add Stepper
+## 12. Add a Buzzer
 
 More info coming soon.
 
