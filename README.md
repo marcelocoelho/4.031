@@ -112,14 +112,20 @@ Use the example included in the Github repo. This example also requires a librar
 
 For the stepper to work, you will need to connect it to the driver board and connect the driver board to the Arduino. Pins IN1-IN4 on driver board correspond to pins 8-11 on the Arduino. Also, you will need to connect the + and - on the driver board to 5V and GND on the Arduino
 
+If you attach a small piece of tape to the motor shaft, it becomes easier to see it move, specially when the movement steps are very small.
+
 ## 11. Add Servo
 
-More info coming soon.
+Use the example included in the Github repo.
+
+This example is written so that the servo moves one step, waits 15 ms, and then moves another step. This ensures that a step is complete before the next one, but also that the delay does not lock your Arduino and prevent others things from happening, such as sensor readings, LED controls, etc.
+
 https://www.arduino.cc/reference/en/libraries/servo/
 
 ## 12. Add a Buzzer
 
-More info coming soon.
+More info coming soon, but for now you can try this:
+https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45
 
 ## 13. Create Your Own Timer
 
