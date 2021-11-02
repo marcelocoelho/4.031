@@ -1,4 +1,4 @@
-# 4.031 - Interactive Clock <span style="color:red"> / 2021 version</span>
+# 4.031 - Interactive Clock - ***2021 version***
 
 Step-by-step electronics for interactive clock project.
 
@@ -17,7 +17,7 @@ Arduino is the microcontroller platform you will use to create your clock. You c
 ## 2. Program Arduino
 
 
-<span style="color:red">Correction: Arduino Nano and Processor: ATmega328P (Old Bootloader)</span>
+***Correction: Arduino Nano and Processor: ATmega328P (Old Bootloader)***
 
 We are using Arduino Uno. Plug your Arduino into your computer and you should see a small blinking LED. If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
 
