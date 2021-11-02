@@ -119,7 +119,7 @@ If you attach a small piece of tape to the motor shaft, it becomes easier to see
 
 ## 11. Add Servo
 
-***Correction: servo not included in your kit, but we have some you if you want to use them in your final project.***
+***Correction: servo not included in your kit, but we have some if you want to use them in your final project.***
 
 Use the example included in the Github repo.
 
@@ -129,7 +129,7 @@ https://www.arduino.cc/reference/en/libraries/servo/
 
 ## 12. Add a Buzzer
 
-***Correction: buzzer not included in your kit, but we have some you if you want to use them in your final project.***
+***Correction: buzzer not included in your kit, but we have some if you want to use them in your final project.***
 
 More info coming soon, but for now you can try this:
 https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45
