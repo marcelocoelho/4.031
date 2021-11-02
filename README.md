@@ -17,7 +17,7 @@ Arduino is the microcontroller platform you will use to create your clock. You c
 ## 2. Program Arduino
 
 
-***Correction: Arduino Nano and Processor: ATmega328P (Old Bootloader)***
+***Correction: Use Arduino Nano instead of Uno, and Processor: ATmega328P (Old Bootloader). You also won't see an LED blinking when you first plug it in. You will see a green LED on and a red LED will blink when you run sketch.***
 
 We are using Arduino Uno. Plug your Arduino into your computer and you should see a small blinking LED. If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
 
@@ -51,6 +51,8 @@ At this early prototyping phase, I use a small piece of wood or cardboard and pr
 
 ## 4. Add a Breadboard
 
+***Correction: You should connect your Arduino Nano to the breadboard and attach the breadboard to the roadkill panel***
+
 Add a breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails.
 
 If you haven't used a breadboard before, there is a great tutorial from Sparkfun here: https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
@@ -59,7 +61,7 @@ If you haven't used a breadboard before, there is a great tutorial from Sparkfun
 
 ## 5. Add an External LED
 
-Add an LED to breadboard with a 330 Ohm resistor and connect it to Pin X on the Arduino.
+Add an LED to breadboard with a 330 Ohm resistor and connect it to Pin D2 on the Arduino.
 
 Now go back to the Blink sketch you used earlier and change LED_BUILTIN to 2. This change the Arduino pin you are controlling from pin 13 to pin 2, which is where your external LED is connected.
 
@@ -103,7 +105,7 @@ GND and 5V connect to ground and power.
 CI and DI mean clock in and data in and can connect to any digital pin.
 In the repo example, we use pins 4 and 5. If you mix them up your LED strip will not work. Double check them if you are having problems.
 
-You also need to be careful to not connect too many LEDs to your Arduino. Keep it to 5 LEDs for this prototype.
+You also need to be careful to not connect too many LEDs to your Arduino. They will draw too much current. Keep it to 4-5 LEDs for this prototype.
 
 ![ledstrip](https://github.com/marcelocoelho/4.031/blob/main/images/ledstrip.jpg)
 
@@ -117,6 +119,8 @@ If you attach a small piece of tape to the motor shaft, it becomes easier to see
 
 ## 11. Add Servo
 
+***Correction: servo not included in your kit, but we have some you if you want to use them in your final project.***
+
 Use the example included in the Github repo.
 
 This example is written so that the servo moves one step, waits 15 ms, and then moves another step. This ensures that a step is complete before the next one, but also that the delay does not lock your Arduino and prevent others things from happening, such as sensor readings, LED controls, etc.
@@ -124,6 +128,8 @@ This example is written so that the servo moves one step, waits 15 ms, and then 
 https://www.arduino.cc/reference/en/libraries/servo/
 
 ## 12. Add a Buzzer
+
+***Correction: buzzer not included in your kit, but we have some you if you want to use them in your final project.***
 
 More info coming soon, but for now you can try this:
 https://create.arduino.cc/projecthub/SURYATEJA/use-a-buzzer-module-piezo-speaker-using-arduino-uno-89df45
