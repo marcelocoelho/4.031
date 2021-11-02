@@ -1,6 +1,4 @@
-# 4.031
-
-# Interactive Clock
+# 4.031 - Interactive Clock <span style="color:red"> / 2021 version</span>
 
 Step-by-step electronics for interactive clock project.
 
@@ -17,6 +15,9 @@ Start by downloading this repository and save it to a local drive. If you know h
 Arduino is the microcontroller platform you will use to create your clock. You can download the Arduino IDE here: https://www.arduino.cc/en/Main/Software which is where you will write your software, compile it, and flash it into the Arduino. If you've never used an Arduino before, this page has all the info you need to get started: https://www.arduino.cc/en/Tutorial/HomePage
 
 ## 2. Program Arduino
+
+
+<span style="color:red">Correction: Arduino Nano and Processor: ATmega328P (Old Bootloader)</span>
 
 We are using Arduino Uno. Plug your Arduino into your computer and you should see a small blinking LED. If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
 
@@ -42,7 +43,7 @@ delay(100); // wait for a second
 
 ## 3. Start Building your 'Roadkill'
 
-A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring out ethe form-factor and look of an object.
+A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring out the form-factor and look of an object.
 
 At this early prototyping phase, I use a small piece of wood or cardboard and protoboards to create a 'roadkill'. Once I know that everything works as intended I start migrating my circuit design to its final custom PCB form-factor.
 
