@@ -1,4 +1,4 @@
-# 4.031 - Interactive Clock - ***2021 version***
+# 4.031 - Interactive Clock - ***2022 version***
 
 Step-by-step electronics for interactive clock project.
 
@@ -12,14 +12,11 @@ Start by downloading this repository and save it to a local drive. If you know h
 
 ## 1. Download Arduino IDE
 
-Arduino is the microcontroller platform you will use to create your clock. You can download the Arduino IDE here: https://www.arduino.cc/en/Main/Software which is where you will write your software, compile it, and flash it into the Arduino. If you've never used an Arduino before, this page has all the info you need to get started: https://www.arduino.cc/en/Tutorial/HomePage
+Arduino is the microcontroller platform you will use to create your clock. You can download the Arduino IDE here: https://www.arduino.cc/en/software which is where you will write your software, compile it, and flash it into the Arduino. If you've never used an Arduino before, this page has all the info you need to get started: https://docs.arduino.cc/tutorials/
 
 ## 2. Program Arduino
 
-
-***Correction: Use Arduino Nano instead of Uno, and Processor: ATmega328P (Old Bootloader). You also won't see an LED blinking when you first plug it in. You will see a green LED on and a red LED will blink when you run sketch.***
-
-We are using Arduino Uno. Plug your Arduino into your computer and you should see a small blinking LED. If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
+We are using Arduino Nano. Plug your Arduino into your computer and you should see two small LEDs turn on. The one fully on tells you the board is powered, and the blinking one tells you the default software is running.  If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
 
 Now let's make sure you can program your board.
 
@@ -45,17 +42,23 @@ delay(100); // wait for a second
 
 A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring out the form-factor and look of an object.
 
-At this early prototyping phase, I use a small piece of wood or cardboard and protoboards to create a 'roadkill'. Once I know that everything works as intended I start migrating my circuit design to its final custom PCB form-factor.
+At this early prototyping phase, I use a small piece of wood or cardboard, and protoboards to create a 'roadkill'. Once I know that everything works as intended I start migrating my circuit design to its final custom PCB form-factor.
 
 ![roadkill](https://github.com/marcelocoelho/4.031/blob/main/images/roadkill.jpg)
 
+If you are using an Arduino Nano, check out this video on how to solder header pins and attach your Nano to a breadboard:
+[Soldering Nano](https://www.youtube.com/watch?v=wDbUChzxIrE&ab_channel=CodeandMake)
+
+***Before doing soldering or wiring components to your Arduino, make sure you disconnect it from power to prevent shortcuts.***
+
+
 ## 4. Add a Breadboard
 
-***Correction: You should connect your Arduino Nano to the breadboard and attach the breadboard to the roadkill panel***
+***Note: You should connect your Arduino Nano to the breadboard and attach the breadboard to the roadkill panel***
 
-Add a breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails.
+Add your Arduino and breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails.
 
-If you haven't used a breadboard before, there is a great tutorial from Sparkfun here: https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all
+If you haven't used a breadboard before, there is a great tutorial from Sparkfun here: [How to Use a Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)
 
 ![roadkill](https://github.com/marcelocoelho/4.031/blob/main/images/breadboard.jpg)
 
@@ -69,6 +72,9 @@ Now go back to the Blink sketch you used earlier and change LED_BUILTIN to 2. Th
 
 For more information, check out: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 
+
+![arduinoled](https://github.com/marcelocoelho/4.031/blob/main/images/arduinoled.jpg)
+
 ## 6. Add a Button
 
 Follow this example to add a button and control the external LED. Make sure that you change pin numbers to reflect the pins you are connecting things to:
@@ -76,6 +82,8 @@ Follow this example to add a button and control the external LED. Make sure that
 https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
 ![button](https://github.com/marcelocoelho/4.031/blob/main/images/button.jpg)
+
+![arduinobutton](https://github.com/marcelocoelho/4.031/blob/main/images/arduinobutton.jpg)
 
 ## 7. Debug Using the Serial Port
 
