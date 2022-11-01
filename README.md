@@ -4,7 +4,7 @@ Step-by-step electronics for interactive clock project.
 
 ## How This Works
 
-Each of the code examples in this repository will help you get a different electronic compoent to work. If you follow them from beginning to end you will end up with a work-like prototype and a great platform to create your own interactive clock.
+Each of the code examples in this repository will help you get a different electronic component to work. If you follow them from beginning to end you will end up with a work-like prototype and a great platform to create your own interactive clock.
 
 ## 0. Download Repo
 
@@ -16,14 +16,14 @@ Arduino is the microcontroller platform you will use to create your clock. You c
 
 ## 2. Program Arduino
 
-We are using Arduino Nano. Plug your Arduino into your computer and you should see two small LEDs turn on. The one fully on tells you the board is powered, and the blinking one tells you the default software is running.  If you don't, it could be because your Arduino is not properly connected to your computer or your computer might be having some driver issues recognizing the board.
+We are using Arduino Nano. Plug your Arduino into your computer and you should see two small LEDs turn on. The one always on tells you the board is powered, while the blinking one tells you the default software is running.  If you don't the LEDs turn on, it could be because your Arduino is not properly connected to your computer or your computer might be having a driver issue recognizing the board.
 
 Now let's make sure you can program your board.
 
-Firs you need tell the Arduino IDE what port your board is connected to and make sure you've selected the right board. On my computer it looks like this:
+First you need tell the Arduino IDE what port your board is connected to and make sure you've selected the right board. On my computer it looks like this:
 
-![port](https://github.com/marcelocoelho/4.031/blob/main/images/board.png)
-![board](https://github.com/marcelocoelho/4.031/blob/main/images/port.png)
+![port](https://github.com/marcelocoelho/4.031/blob/main/images/port.png)
+![board](https://github.com/marcelocoelho/4.031/blob/main/images/board.png)
 
 Go to File > Examples > 01.Basics > Blink. This will open a sketch that makes the LED blink.
 
@@ -40,7 +40,7 @@ delay(100); // wait for a second
 
 ## 3. Start Building your 'Roadkill'
 
-A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers start their work, while mechanical and industrial designers are still figuring out the form-factor and look of an object.
+A 'roadkill' is a flattened circuit board, designed this way so that you only need to worry about your electronics, and not the form-factor of your object. In product design, this lets electrical engineers and firmware developers do their work, while mechanical and industrial designers are still figuring out the form-factor and look of an object.
 
 At this early prototyping phase, I use a small piece of wood or cardboard, and protoboards to create a 'roadkill'. Once I know that everything works as intended I start migrating my circuit design to its final custom PCB form-factor.
 
@@ -49,14 +49,12 @@ At this early prototyping phase, I use a small piece of wood or cardboard, and p
 If you are using an Arduino Nano, check out this video on how to solder header pins and attach your Nano to a breadboard:
 [Soldering Nano](https://www.youtube.com/watch?v=wDbUChzxIrE&ab_channel=CodeandMake)
 
-***Before doing soldering or wiring components to your Arduino, make sure you disconnect it from power to prevent shortcuts.***
+***IMPORTANT: Before soldering or wiring components to your Arduino, make sure you disconnect it from power to prevent shortcuts.***
 
 
 ## 4. Add a Breadboard
 
-***Note: You should connect your Arduino Nano to the breadboard and attach the breadboard to the roadkill panel***
-
-Add your Arduino and breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails.
+Add your Arduino and breadboard to your 'roadkill' so you can add a button and LED to your prototype. Bring 5V and GND to the breadboard rails. If you are using an Arduino Nano, you should connect your Arduino to the breadboard and attach the breadboard to the roadkill panel.
 
 If you haven't used a breadboard before, there is a great tutorial from Sparkfun here: [How to Use a Breadboard](https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all)
 
@@ -66,24 +64,22 @@ If you haven't used a breadboard before, there is a great tutorial from Sparkfun
 
 Add an LED to breadboard with a 330 Ohm resistor and connect it to Pin D2 on the Arduino.
 
-Now go back to the Blink sketch you used earlier and change LED_BUILTIN to 2. This change the Arduino pin you are controlling from pin 13 to pin 2, which is where your external LED is connected.
-
-![led](https://github.com/marcelocoelho/4.031/blob/main/images/led.jpg)
+Now go back to the Blink sketch you used earlier and change LED_BUILTIN to 2. This changes the Arduino pin you are controlling from pin 13 to pin 2, which is where your external LED is connected.
 
 For more information, check out: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 
+![led](https://github.com/marcelocoelho/4.031/blob/main/images/led.jpg)
 
-![arduinoled](https://github.com/marcelocoelho/4.031/blob/main/images/arduinoled.jpg)
+
+![arduinoled](https://github.com/marcelocoelho/4.031/blob/main/images/arduinoled.png)
 
 ## 6. Add a Button
 
-Follow this example to add a button and control the external LED. Make sure that you change pin numbers to reflect the pins you are connecting things to:
-
-https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
+Follow this example to add a button and control the external LED. Make sure that you change pin numbers to reflect the pins you are connecting things to: https://www.arduino.cc/en/Tutorial/BuiltInExamples/Button
 
 ![button](https://github.com/marcelocoelho/4.031/blob/main/images/button.jpg)
 
-![arduinobutton](https://github.com/marcelocoelho/4.031/blob/main/images/arduinobutton.jpg)
+![arduinobutton](https://github.com/marcelocoelho/4.031/blob/main/images/arduinobutton.png)
 
 ## 7. Debug Using the Serial Port
 
