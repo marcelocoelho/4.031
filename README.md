@@ -1,4 +1,4 @@
-# 4.031 - Interactive Clock - ***2022 version***
+# 4.031 - Interactive Clock - ***2023***
 
 Step-by-step electronics for interactive clock project.
 
